@@ -1,6 +1,14 @@
 import random
+    
 def play_session(num_rounds):
-    """Plays a single session of coin flips and returns the win rate"""
+    """Does stuff
+
+    Args:
+        num_rounds (int): The number of rounds to play
+
+    Returns:
+        float: The win rate as a percentage
+    """
     wins = 0
     for _ in range(num_rounds):#kkk
         # Automated guess
